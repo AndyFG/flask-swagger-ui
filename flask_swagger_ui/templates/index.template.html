@@ -56,7 +56,7 @@
                     addApiKeyAuthorization();
                 },
                 onFailure: function (data) {
-                    log("Unable to Load SwaggerUI");
+                    console.log("Unable to Load SwaggerUI");
                 }
             });
 
@@ -65,7 +65,7 @@
                 if (key && key.trim() != "") {
                     var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("Authorization", "Bearer " + key, "header");
                     window.swaggerUi.api.clientAuthorizations.add("key", apiKeyAuth);
-                    log("added key " + key);
+                    console.log("added key " + key);
                 }
             }
 
