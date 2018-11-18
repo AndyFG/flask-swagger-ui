@@ -15420,6 +15420,7 @@ header.site-header.site-header {
     background: transparent;
     font-size: 14px;
     position: static;
+    padding: 0 !important;
 }
 header.site-header.site-header.header-fixed {
     background: rgba(255,255,255,0.8);
@@ -15435,7 +15436,6 @@ header.site-header.site-header .navbar-header {
     margin-right: -15px;
     margin-left: -15px;
     float: none;
-    padding-bottom: 5px;
 }
 @media (min-width: 992px) {
     header.site-header.site-header .navbar-header {

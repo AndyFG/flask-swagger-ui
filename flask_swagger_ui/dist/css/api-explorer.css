@@ -728,13 +728,14 @@
 .swagger-section .token-generator .btn {
     background: #fff;
     border: 0;
-    float: right
+    float: right;
+    height: 34px;
 }
 
 @media (min-width: 992px) {
     .swagger-section .token-generator .btn {
         border: 1px solid #cfd3d5;
-        height: 32px
+        height: 34px;
     }
 }
 
@@ -1357,7 +1358,8 @@
     max-width: 140px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap
+    white-space: nowrap;
+    padding-left: 1rem;
 }
 
 .modal-backdrop {
