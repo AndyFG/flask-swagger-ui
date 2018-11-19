@@ -38,7 +38,7 @@ setup(
             'README.md',
             'templates/*.html',
             'dist/*.*',
-            'dist/lib/*.*',
+            'dist/javascript/*.*',
             'dist/css/*.*',
             'dist/fonts/*.*',
             'dist/images/*.*',
