@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Blueprint, send_from_directory, render_template, request
+from flask import Blueprint, send_from_directory, render_template
 
 
 def get_swaggerui_blueprint(base_url, api_url, oauth_config=None, blueprint_name='swagger_ui'):
