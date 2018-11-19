@@ -37,7 +37,14 @@ setup(
         'flask_swagger_ui': [
             'README.md',
             'templates/*.html',
-            'dist/*',
+            'dist/VERSION',
+            'dist/LICENSE',
+            'dist/README.md',
+            'dist/*.html',
+            'dist/*.js',
+            'dist/fonts/*.*',
+            'dist/images/*.*',
+            'dist/lib/*.*'
         ],
     }
 )
